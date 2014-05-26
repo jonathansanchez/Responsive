@@ -25,7 +25,12 @@ html {
         padding: 0;
     }
 }
+
 h1 {
+    text-align: center !important;
+}
+
+button {
     text-align: center !important;
 }
 
