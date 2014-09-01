@@ -18,7 +18,7 @@ if ($_POST['oculto']) {
 	$mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 	$mensaje .= "Enviado el " . date('d/m/Y', time());
 	
-	$para = 'jsanchezorellana@gmail.com';
+	$para = 'mail@gmail.com';
 	$asunto = 'Enviado desde Curriculum Web';
 	
 	mail($para, $asunto, utf8_decode($mensaje), $header);
